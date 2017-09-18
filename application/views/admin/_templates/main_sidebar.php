@@ -79,6 +79,52 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </li>
 
 
+
+                        <li class="header text-uppercase"><?php echo lang('menu_crud'); ?></li>
+                        <li class="<?=active_link_controller('crud/employees_management')?>">
+                            <a href="<?php echo site_url('admin/crud/employees_management'); ?>">
+                                <i class="fa fa-id-card"></i> <span><?php echo lang('menu_employees'); ?></span>
+                            </a>
+                        </li>
+                        <li class="<?=active_link_controller('crud/customers_management')?>">
+                            <a href="<?php echo site_url('admin/crud/customers_management'); ?>">
+                                <i class="fa fa-group"></i> <span><?php echo lang('menu_customers'); ?></span>
+                            </a>
+                        </li>
+                        <li class="<?=active_link_controller('crud/offices_management')?>">
+                            <a href="<?php echo site_url('admin/crud/offices_management'); ?>">
+                                <i class="fa fa-building"></i> <span><?php echo lang('menu_offices'); ?></span>
+                            </a>
+                        </li>
+                        <li class="<?=active_link_controller('crud/orders_management')?>">
+                            <a href="<?php echo site_url('admin/crud/orders_management'); ?>">
+                                <i class="fa fa-book"></i> <span><?php echo lang('menu_orders'); ?></span>
+                            </a>
+                        </li>
+                        <li class="<?=active_link_controller('crud/products_management')?>">
+                            <a href="<?php echo site_url('admin/crud/products_management'); ?>">
+                                <i class="fa fa-barcode"></i> <span><?php echo lang('menu_products'); ?></span>
+                            </a>
+                        </li>
+                        <li class="<?=active_link_controller('crud/film_management')?>">
+                            <a href="<?php echo site_url('admin/crud/film_management'); ?>">
+                                <i class="fa fa-film"></i> <span><?php echo lang('menu_film'); ?></span>
+                            </a>
+                        </li>
+                        <!-- Buy theme at https://www.grocerycrud.com/bootstrap-theme - NOT TESTED! -->
+                        <!--<li class="<?=active_link_controller('crud/film_management_twitter_bootstrap')?>">
+                            <a href="<?php echo site_url('admin/crud/film_management_twitter_bootstrap'); ?>">
+                                <i class="fa fa-twitter"></i> <span><?php echo lang('menu_film_bootstrap'); ?></span>
+                            </a>
+                        </li> -->
+                        <li class="<?=active_link_controller('crud/multigrids')?>">
+                            <a href="<?php echo site_url('admin/crud/multigrids'); ?>">
+                                <i class="fa fa-th"></i> <span><?php echo lang('menu_multigrids'); ?></span>
+                            </a>
+                        </li>
+
+
+
                         <li class="header text-uppercase"><?php echo $title; ?></li>
                         <li class="<?=active_link_controller('license')?>">
                             <a href="<?php echo site_url('admin/license'); ?>">

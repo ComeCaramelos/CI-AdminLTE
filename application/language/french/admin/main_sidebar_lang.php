@@ -40,6 +40,17 @@ $lang['menu_search'] = 'Rechercher';
 /* ****** */$lang['menu_database_utility']      = 'Utilitaire base de données';
 
 
+/* * */$lang['menu_crud']           			= 'CRUD';
+/* ****** */$lang['menu_employees']       		= 'Employees';
+/* ****** */$lang['menu_customers']       		= 'Customers';
+/* ****** */$lang['menu_offices']       		= 'Offices';
+/* ****** */$lang['menu_orders']       			= 'Orders';
+/* ****** */$lang['menu_products']       		= 'Products';
+/* ****** */$lang['menu_film']       			= 'Film';
+/* ****** */$lang['menu_film_bootstrap']		= 'Film Bootstrap';
+/* ****** */$lang['menu_multigrids']       		= 'Multigrids';
+
+
 /* * */$lang['menu_webapp']                     = 'Application Web';
 /* ****** */$lang['menu_license']               = 'licence';
 /* ****** */$lang['menu_resources']             = 'Ressources';

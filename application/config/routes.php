@@ -54,5 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['admin'] = 'admin/dashboard';
+$route['admin/crud'] = 'admin/crud/employees_management';
 $route['admin/prefs/interfaces/(:any)'] = 'admin/prefs/interfaces/$1';
 

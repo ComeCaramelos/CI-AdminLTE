@@ -29,5 +29,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php endif; ?>
         <script src="<?php echo base_url($frameworks_dir . '/adminlte/js/adminlte.min.js'); ?>"></script>
         <script src="<?php echo base_url($frameworks_dir . '/domprojects/js/dp.min.js'); ?>"></script>
+<?php if(isset($crud_output['js_files'])) foreach($crud_output['js_files'] as $file): ?>
+        <script src="<?php echo $file; ?>"></script>
+<?php endforeach; ?>
     </body>
 </html>

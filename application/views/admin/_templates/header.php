@@ -43,6 +43,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php endif; ?>
         <link rel="stylesheet" href="<?php echo base_url($frameworks_dir . '/domprojects/css/dp.min.css'); ?>">
 <?php if ($mobile === FALSE): ?>
+<?php if(isset($crud_output['css_files'])) foreach($crud_output['css_files'] as $file): ?>
+        <link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
+<?php endforeach; ?>
         <!--[if lt IE 9]>
             <script src="<?php echo base_url($plugins_dir . '/html5shiv/html5shiv.min.js'); ?>"></script>
             <script src="<?php echo base_url($plugins_dir . '/respond/respond.min.js'); ?>"></script>

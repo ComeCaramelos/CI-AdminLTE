@@ -1,4 +1,5 @@
-# CI-AdminLTE v1.5.2
+# CI-AdminLTE v1.5.2++
+Source project @[GitHub](https://github.com/domProjects/CI-AdminLTE)
 
 ## Demo
 
@@ -29,4 +30,4 @@ Support for most major browsers including Chrome, Firefox, IE9+, Opera and Safar
 | jQuery | 2.2.4 | [Website](http://jquery.com) | [Github](https://github.com/jquery/jquery)
 | Font Awesome | 4.7.0 | [Website](http://fortawesome.github.io/Font-Awesome/) | [Github](https://github.com/FortAwesome/Font-Awesome)
 
-### Grocery CRUD hotfix: https://github.com/scoumbourdis/grocery-crud/compare/master...ComeCaramelos:patch-1
+### Grocery CRUD hotfix: [see](https://github.com/scoumbourdis/grocery-crud/compare/master...ComeCaramelos:patch-1)

@@ -53,4 +53,10 @@ class Page_title {
 		return NULL;
 	}
 
+
+    function clear()
+    {
+        $this->page_title = array();
+    }
+
 }

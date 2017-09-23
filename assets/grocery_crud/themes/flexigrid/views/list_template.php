@@ -5,7 +5,8 @@
 	if ($dialog_forms) {
         $this->set_js_lib($this->default_javascript_path.'/jquery_plugins/jquery.noty.js');
         $this->set_js_lib($this->default_javascript_path.'/jquery_plugins/config/jquery.noty.config.js');
-        $this->set_js_lib($this->default_javascript_path.'/common/lazyload-min.js');
+		// https://github.com/rgrove/lazyload is no longer being maintained.
+        //$this->set_js_lib($this->default_javascript_path.'/common/lazyload.js');
     }
 
     $this->set_js_lib($this->default_javascript_path.'/common/list.js');
@@ -19,9 +20,9 @@
 	$this->set_js($this->default_theme_path.'/flexigrid/js/jquery.printElement.min.js');
 
 	/** Fancybox */
-	$this->set_css($this->default_css_path.'/jquery_plugins/fancybox/jquery.fancybox-3.1.25.min.css');
-	$this->set_js($this->default_javascript_path.'/jquery_plugins/jquery.fancybox-3.1.25.min.js');
-	$this->set_js($this->default_javascript_path.'/jquery_plugins/jquery.easing-1.3_fix.pack.js');
+	//$this->set_css($this->default_css_path.'/jquery_plugins/fancybox/jquery.fancybox-3.1.25.min.css');
+	//$this->set_js($this->default_javascript_path.'/jquery_plugins/jquery.fancybox-3.1.25.min.js');
+	//$this->set_js($this->default_javascript_path.'/jquery_plugins/jquery.easing-1.3_fix.pack.js');
 
 	/** Jquery UI */
 	$this->load_js_jqueryui();

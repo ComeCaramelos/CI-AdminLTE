@@ -10,7 +10,8 @@
     if ($dialog_forms) {
         $this->set_js_lib($this->default_javascript_path.'/jquery_plugins/jquery.noty.js');
         $this->set_js_lib($this->default_javascript_path.'/jquery_plugins/config/jquery.noty.config.js');
-        $this->set_js_lib($this->default_javascript_path.'/common/lazyload-min.js');
+		// https://github.com/rgrove/lazyload is no longer being maintained.
+        //$this->set_js_lib($this->default_javascript_path.'/common/lazyload.js');
     }
 
     $this->set_js_lib($this->default_javascript_path.'/common/list.js');

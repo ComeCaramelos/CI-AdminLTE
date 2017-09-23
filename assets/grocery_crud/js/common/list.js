@@ -31,8 +31,9 @@ var fnOpenEditForm = function(this_element){
 					});
 			}
 
-			LazyLoad.loadOnce(data.js_lib_files);
-			LazyLoad.load(data.js_config_files);
+			// https://github.com/rgrove/lazyload is no longer being maintained.
+			//LazyLoad.js(data.js_lib_files);
+			//LazyLoad.js(data.js_config_files);
 
 			$.each(data.css_files,function(index,css_file){
 				load_css_file(css_file);

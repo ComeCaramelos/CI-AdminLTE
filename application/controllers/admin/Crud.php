@@ -19,6 +19,7 @@ class Crud extends Admin_Controller {
 
 		/* Avoid conflicts */
 		$crud->unset_jquery();
+		$crud->unset_jquery_ui();
 		$crud->unset_bootstrap();
 
 		$crud_output = $crud->render();
@@ -38,6 +39,7 @@ class Crud extends Admin_Controller {
 
 		/* Avoid conflicts */
 		$crud->unset_jquery();
+		$crud->unset_jquery_ui();
 		$crud->unset_bootstrap();
 
 		$crud_output = $crud->render();

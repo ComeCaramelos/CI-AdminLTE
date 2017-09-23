@@ -13,6 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <script src="<?php echo base_url($frameworks_dir . '/jquery/jquery.min.js'); ?>"></script>
         <script src="<?php echo base_url($frameworks_dir . '/bootstrap/js/bootstrap.min.js'); ?>"></script>
+        <!-- jQueryUI 1.12.1 -->
+        <script src="<?php echo base_url($frameworks_dir . '/jquery-ui/jquery-ui.min.js'); ?>"></script>
         <script src="<?php echo base_url($plugins_dir . '/slimscroll/slimscroll.min.js'); ?>"></script>
 <?php if ($mobile == TRUE): ?>
         <script src="<?php echo base_url($plugins_dir . '/fastclick/fastclick.min.js'); ?>"></script>
@@ -29,6 +31,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php endif; ?>
         <script src="<?php echo base_url($frameworks_dir . '/adminlte/js/adminlte.min.js'); ?>"></script>
         <script src="<?php echo base_url($frameworks_dir . '/domprojects/js/dp.min.js'); ?>"></script>
+        <!-- CRUD config.js -->
+<?php if(isset($crud_output['js_config_files'])) foreach($crud_output['js_files'] as $file): ?>
+        <script src="<?php echo $file; ?>"></script>
+<?php endforeach; ?>
+        <!-- CRUD lib.js -->
+<?php if(isset($crud_output['js_lib_files'])) foreach($crud_output['js_files'] as $file): ?>
+        <script src="<?php echo $file; ?>"></script>
+<?php endforeach; ?>
+        <!-- CRUD .js -->
 <?php if(isset($crud_output['js_files'])) foreach($crud_output['js_files'] as $file): ?>
         <script src="<?php echo $file; ?>"></script>
 <?php endforeach; ?>

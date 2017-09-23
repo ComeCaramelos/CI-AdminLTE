@@ -2091,6 +2091,7 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
 	{
 		$this->set_css($this->default_css_path.'/jquery_plugins/fancybox/jquery.fancybox-3.1.25.min.css');
 
+		$this->set_js_config($this->default_javascript_path.'/jquery_plugins/config/jquery.fancybox.config.js');
 		$this->set_js_lib($this->default_javascript_path.'/jquery_plugins/jquery.fancybox-3.1.25.min.js');
 		$this->set_js_lib($this->default_javascript_path.'/jquery_plugins/jquery.easing-1.3.pack.js');
 	}
@@ -2648,8 +2649,6 @@ class grocery_CRUD_Layout extends grocery_CRUD_Model_Driver
 
 		//Fancybox
 		$this->load_js_fancybox();
-
-		$this->set_js_config($this->default_javascript_path.'/jquery_plugins/config/jquery.fancybox.config.js');
 
 		$unique = mt_rand();
 

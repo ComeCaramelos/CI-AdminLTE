@@ -28,6 +28,11 @@ Support for most major browsers including Chrome, Firefox, IE9+, Opera and Safar
 | Ion Auth | 2.6.0 | [Website](http://benedmunds.com/ion_auth) | [Github](https://github.com/benedmunds/CodeIgniter-Ion-Auth)
 | Grocery CRUD | 1.5.9 | [Website](http://www.grocerycrud.com/) | [Github](https://github.com/scoumbourdis/grocery-crud)
 | jQuery | 2.2.4 | [Website](http://jquery.com) | [Github](https://github.com/jquery/jquery)
+| jQueryUI | 1.12.1 | [Website](http://jqueryui.com/) | [Github](https://github.com/jquery/jquery-ui)
 | Font Awesome | 4.7.0 | [Website](http://fortawesome.github.io/Font-Awesome/) | [Github](https://github.com/FortAwesome/Font-Awesome)
 
-### Grocery CRUD hotfix: [see](https://github.com/scoumbourdis/grocery-crud/compare/master...ComeCaramelos:patch-1)
+### Grocery CRUD updates:
+ * Fix: [see](https://github.com/scoumbourdis/grocery-crud/compare/master...ComeCaramelos:patch-1)
+ * Delete: Deleted LazyLoad due no longer maintenance [more info](https://github.com/rgrove/lazyload)
+ * Fix: jQuery.easing [thanks to puchu](https://stackoverflow.com/a/26162624)
+ * Update: Updated FancyBox to v3.1.25
